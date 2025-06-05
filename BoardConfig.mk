@@ -206,3 +206,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/rosemary/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
